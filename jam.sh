@@ -3,7 +3,7 @@
 # Extended GMT+7 by vitoharhari
 # Simplify usage and improved codes by helmiau
 # Supported VPN Tunnels: OpenClash, Passwall, ShadowsocksR, ShadowsocksR++, v2ray, v2rayA, xray, Libernet, Xderm Mini, Wegare
-
+# Ambiled Yusril
 dtdir="/root/date"
 initd="/etc/init.d"
 logp="/root/logp"
@@ -215,7 +215,6 @@ function ngepink() {
 }
 
 if [[ ! -z "$cv_type" ]]; then
-	ngopkg
 	nyetop
 	ngepink
 	ngecurl
